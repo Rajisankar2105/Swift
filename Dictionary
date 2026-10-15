@@ -1,0 +1,11 @@
+let capitals = [
+    "India": "New Delhi",
+    "USA": "Washington",
+    "UK": "London"
+]
+
+if let capital = capitals["India"] {
+    print("Capital: \(capital)")
+} else {
+    print("Not found")
+}
