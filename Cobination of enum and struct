@@ -1,0 +1,13 @@
+
+
+enum Animal {
+    case dog, cat, bird
+}
+
+let animal = Animal.dog
+
+switch animal {
+case .dog: print("Dog")
+case .cat: print("Cat")
+case .bird: print("Bird")
+}
