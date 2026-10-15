@@ -1,0 +1,6 @@
+var setA: Set = [1, 2, 3, 4, 5]
+var setB: Set = [4, 5, 6, 7, 8]
+
+print("Union: \(setA.union(setB))")
+print("Intersection: \(setA.intersection(setB))")
+print("Difference: \(setA.subtracting(setB))")
