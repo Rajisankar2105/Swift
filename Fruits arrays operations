@@ -1,0 +1,7 @@
+var fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+
+fruits.append("Kiwi")
+fruits.insert("Pineapple", at: 0)
+fruits.remove(at: 2)
+
+print(fruits)
