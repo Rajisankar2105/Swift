@@ -1,0 +1,6 @@
+let numbers = [1, 2, 3, 4, 5]
+
+print(numbers)
+print("Count: \(numbers.count)")
+print("First: \(numbers.first ?? 0)")
+print("Last: \(numbers.last ?? 0)")
