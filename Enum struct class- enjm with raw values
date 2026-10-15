@@ -1,0 +1,12 @@
+enum Day: Int {
+    case monday = 1
+    case tuesday, wednesday, thursday, friday, saturday, sunday
+}
+
+let day = Day(rawValue: 3)
+
+if let d = day {
+    print("Day: \(d)")
+} else {
+    print("Invalid day")
+}
