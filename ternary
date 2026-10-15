@@ -1,0 +1,5 @@
+
+let a = 10, b = 25
+let larger = a > b ? a : b
+
+print("Larger number is \(larger)")
