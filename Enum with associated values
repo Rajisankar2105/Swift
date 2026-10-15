@@ -1,0 +1,13 @@
+enum Result {
+    case success(String)
+    case failure(String)
+}
+
+let result: Result = .success("Data loaded")
+
+switch result {
+case .success(let message):
+    print("Success: \(message)")
+case .failure(let error):
+    print("Error: \(error)")
+}
