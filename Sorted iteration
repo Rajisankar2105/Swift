@@ -1,0 +1,8 @@
+var names = ["Zoe", "Alex", "John", "Maria"]
+let sortedNames = names.sorted()
+
+print("Sorted: \(sortedNames)")
+
+for name in names {
+    print(name)
+}
